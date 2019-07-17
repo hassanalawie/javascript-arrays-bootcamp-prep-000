@@ -6,13 +6,13 @@ var chocolateBars=
   'skittles'  
 ]
 
-function addElementToBeginningOfArray(a[],b)
+function addElementToBeginningOfArray(array[],element)
 {
-  c=[b,...a];
+  c=[element,...array];
   return c
 }
 
-function destructivelyAddElementToBeginningOfArray(a[],b)
+function destructivelyAddElementToBeginningOfArray(array[],element)
 {
   a.unshift(b);
   return a
