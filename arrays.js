@@ -19,10 +19,15 @@ function destructivelyAddElementToBeginningOfArray(array,element)
 }
 
 function addElementToEndOfArray(array, element){
-  var c=[...array, element]
-  return c
+  var c=[...array, element];
+  return c;
 }
 function destructivelyAddElementToEndOfArray(array, element){
-  array.push(element)
-  return array
+  array.push(element);
+  return array;
+}
+
+function accessElementInArray(array, n)
+{
+  return array[n];
 }
