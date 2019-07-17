@@ -41,3 +41,10 @@ function removeElementFromBeginningOfArray(array){
   var c = array.slice(1)
   return c
 }
+
+function destructivelyRemoveElementFromEndOfArray (array) {
+  array.pop()
+  return array
+}
+
+function 
