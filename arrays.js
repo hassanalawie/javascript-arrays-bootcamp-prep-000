@@ -8,7 +8,7 @@ var chocolateBars=
 element='foo'
 function addElementToBeginningOfArray(array,element)
 {
-  c=[element,...array];
+  c=[...array, element];
   return c
 }
 
